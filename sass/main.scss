@@ -1,0 +1,87 @@
+@import './components/sidebar';
+@import './components/about';
+@import './components/projects';
+@import './components/experience';
+@import './components/education';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f5f7fa;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  max-width: 1070px;
+  background-color: #ffffff;
+  margin: 40px auto;
+}
+.sidebar {
+  background: rgb(49, 49, 59);
+  background: linear-gradient(
+    25deg,
+    rgb(40, 40, 48) 22%,
+    rgba(21, 24, 21, 0.6558998599439776) 48%,
+    rgba(21, 24, 21, 0.6558998599439776) 49%
+  );
+  max-width: 370px;
+  padding-top: 40px;
+
+  &__info {
+    padding: 20px 15px;
+  }
+}
+
+.content {
+  // width: 830px;
+  padding: 40px 50px;
+  background: rgb(176, 176, 176);
+  background: linear-gradient(
+    310deg,
+    rgba(176, 176, 176, 0.8519782913165266) 4%,
+    rgba(195, 195, 195, 0.7959558823529411) 53%
+  );
+}
+
+.section {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #e9e3e3;
+  }
+}
+
+.border {
+  height: 2px;
+  width: 60px;
+  transform: rotate(-90deg);
+  background-color: rgba(59, 177, 255, 0.87);
+}
+
+.divider {
+  font-weight: 600;
+  color: rgb(0, 138, 218);
+}

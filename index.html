@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>My resume</title>
+  </head>
+  <body>
+    <!--MAIN SECTION-->
+    <main class="main">
+      <!--SIDEBAR SECTION-->
+      <aside class="sidebar">
+        <img src="img/ph.jpg" alt="My photo" width="370" />
+        <!-- contacts-->
+        <div class="sidebar__info">
+          <div class="section">
+            <h3 class="section__title">Contacts</h3>
+
+            <ul class="contacts">
+              <li class="contacts__item">
+                <a class="contacts__link" href="mailto:bukreiev@ukr.net"
+                  >bukreiev@ukr.net
+                  <svg class="contacts__icon" width="16px" height="12px">
+                    <use href="./img/icons.svg#icon-envelope"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="tel:380637432666">
+                  +38 063 743 26 66
+                  <svg class="contacts__icon" width="10px" height="16px">
+                    <use href="./img/icons.svg#icon-phone"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h3 class="section__title">Social networks</h3>
+            <ul class="network">
+              <li class="network__item">
+                <a href="https://www.instagram.com/" class="network__link">
+                  <svg class="network__icon" width="20px" height="20px">
+                    <use href="./img/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <!-- <li class="network__item">
+                <a href="https://twitter.com/" class="network__link">
+                  <svg class="network__icon" width="20px" height="20px">
+                    <use href="./img/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li> -->
+              <li class="network__item">
+                <a href="https://www.facebook.com/" class="network__link">
+                  <svg class="network__icon" width="20px" height="20px">
+                    <use href="./img/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="network__item">
+                <a href="https://www.linkedin.com/" class="network__link">
+                  <svg class="network__icon" width="20px" height="20px">
+                    <use href="./img/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- tech skills-->
+          <div class="section">
+            <h3 class="section__title">Tech skills</h3>
+            <ul class="tech-skills">
+              <li class="tech-skills__item"><span class="tech-skills__text">HTML5</span></li>
+              <li class="tech-skills__item"><span class="tech-skills__text">CSS3</span></li>
+              <li class="tech-skills__item"><span class="tech-skills__text">SASS</span></li>
+              <li class="tech-skills__item"><span class="tech-skills__text">GIT</span></li>
+              <li class="tech-skills__item"><span class="tech-skills__text">Photoshop</span></li>
+              <li class="tech-skills__item"><span class="tech-skills__text">Figma</span></li>
+              <!-- <li class="tech-skills__item"><span class="tech-skills__text">JavaScript</span></li> -->
+              <!-- <li class="tech-skills__item"><span class="tech-skills__text">React.js</span></li> -->
+              <!-- <li class="tech-skills__item"><span class="tech-skills__text">Node.js</span></li> -->
+            </ul>
+          </div>
+
+          <!-- My soft skills section-->
+          <div class="section">
+            <h3 class="section__title">Soft skills</h3>
+
+            <ul class="soft-skills">
+              <li class="soft-skills__item"><span class="soft-skills__text">Scrum</span></li>
+              <li class="soft-skills__item"><span class="soft-skills__text">Agile</span></li>
+              <!-- <li class="soft-skills__item"><span class="soft-skills__text">GTD</span></li> -->
+              <li class="soft-skills__item"><span class="soft-skills__text">Teamwork</span></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <!--MAIN CONTENT SECTION-->
+      <div class="content">
+        <!--About me section-->
+        <div class="about">
+          <h2 class="about__profession">Front-End Developer</h2>
+          <h1 class="about__name">Hennadii Bukreiev</h1>
+
+          <p class="about__description">
+            I want to work in an IT company as a front-end developer. Studying at GoIt programming
+            courses. Succesfuly finished HTML and CSS part of courses. I know how to understand
+            someone else's code. I know Ukrainian, Russian and English at the upper-intermediate
+            level.
+          </p>
+        </div>
+
+        <!--My projects section-->
+        <div class="projects">
+          <h3 class="projects__title">Projects</h3>
+
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a href="https://bukreiev.github.io/goit-markup-hw-08/" class="projects__link"
+                >WebStudio</a
+              >
+              <span class="border"></span>
+              <p class="projects__discription">
+                WebStudio project. Adaptive and responsive design developing, using HTML and CSS
+              </p>
+            </li>
+            <!-- <li class="projects__item">
+              <span class="projects__text">
+                <a href="https://cryptohub.goit.global/" class="projects__link"
+                  >https://cryptohub.goit.global/</a
+                >
+                .....................
+                <span class="projects__bracket">[</span> JavaScript
+                <span class="projects__bracket">]</span>
+              </span>
+            </li> -->
+            <!-- <li class="projects__item">
+              <span class="projects__text">
+                <a href="https://kidslike.goit.global/" class="projects__link"
+                  >https://kidslike.goit.global/</a
+                >
+                ...........................
+                <span class="projects__bracket">[</span> React.js, Node.js
+                <span class="projects__bracket">]</span>
+              </span>
+            </li> -->
+          </ul>
+        </div>
+
+        <!--My work experience section-->
+        <div class="experience">
+          <h3 class="experience__title">Work Experience</h3>
+
+          <!--Company 3-->
+          <div class="experience__type">
+            <h4 class="experience__position">
+              Front-End Developer <span class="experience__company">Freelance</span>
+            </h4>
+
+            <p class="experience__period">
+              August 2021 - up to now <span class="divider">|</span>
+              Ukraine
+            </p>
+
+            <ul class="experience__list">
+              <li class="experience__item">
+                Researching, designing, implementing and managing software.
+              </li>
+              <li class="experience__item">Testing or evaluating new software.</li>
+              <li class="experience__item">
+                Identifying required modifications and developing them.
+              </li>
+              <li class="experience__item">Writing and implementing software code.</li>
+            </ul>
+          </div>
+
+          <!--Company 2-->
+          <div class="experience__type">
+            <h4 class="experience__position">
+              CFO at <span class="experience__company">State-financed organization</span>
+            </h4>
+
+            <p class="experience__period">
+              September 2017 - up to now <span class="divider">|</span>
+              Ukraine
+            </p>
+
+            <ul class="experience__list">
+              <li class="experience__item">Budget planning.</li>
+              <li class="experience__item">Payment of wages.</li>
+              <li class="experience__item">Efficient waste of money.</li>
+            </ul>
+          </div>
+
+          <!--Company 1-->
+          <div class="experience__type">
+            <h4 class="experience__position">
+              Photography <span class="experience__company">Freelance</span>
+            </h4>
+
+            <p class="experience__period">
+              March 2013 - July 2017 <span class="divider">|</span> Ukraine
+            </p>
+
+            <ul class="experience__list">
+              <li class="experience__item">Photo session.</li>
+              <li class="experience__item">Photo retouching.</li>
+              <li class="experience__item">Color correction of photos.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- My education section-->
+        <div class="education">
+          <h3 class="education__title">Education</h3>
+
+          <!-- My first education-->
+          <div class="education__type">
+            <h4 class="education__place">Taras Shevchenko National University of Kyiv</h4>
+            <h5 class="education__speciality">Finance, banking and insurance</h5>
+
+            <p class="education__period">
+              September 2012 - August 2017
+              <span class="divider">|</span>
+              Ukraine
+            </p>
+          </div>
+
+          <!-- My second education-->
+          <div class="education__type">
+            <h4 class="education__place">Vasyl' Stus Donetsk National University</h4>
+            <h5 class="education__speciality">Public management and administration</h5>
+
+            <p class="education__period">
+              September 2019 - December 2020 <span class="divider">|</span>
+              Ukraine
+            </p>
+          </div>
+
+          <!-- My third education-->
+          <div class="education__type">
+            <h4 class="education__place">Vasyl' Stus Donetsk National University</h4>
+            <h5 class="education__speciality">Law</h5>
+
+            <p class="education__period">
+              September 2018 - July 2021 <span class="divider">|</span>
+              Ukraine
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

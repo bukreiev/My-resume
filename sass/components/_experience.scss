@@ -1,0 +1,62 @@
+.experience {
+  margin-bottom: 10px;
+  background-color: rgba(241, 241, 241, 0.932);
+  border-radius: 6px;
+  padding: 20px;
+  width: 600px;
+
+  &__title {
+    font-size: 20px;
+    line-height: 17px;
+    color: #292929;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  &__type {
+    background-color: rgba(211, 211, 211, 0.856);
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+    margin-bottom: 5px;
+  }
+  &__company {
+    color: rgb(0, 138, 218);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  &__period {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #030303;
+    margin-bottom: 10px;
+  }
+
+  &__list {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  &__item {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2c2c2c;
+  }
+}
